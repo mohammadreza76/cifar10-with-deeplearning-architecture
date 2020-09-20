@@ -1,12 +1,13 @@
 # cifar10-with-deeplearning-architecture
 
-About Dataset:
+# About Dataset:
 The CIFAR-10 and CIFAR-100 are labeled subsets of the 80 million tiny images dataset. They were collected by Alex Krizhevsky, Vinod Nair, and Geoffrey Hinton. 
 The CIFAR-10 dataset consists of 60000 32x32 colour images in 10 classes, with 6000 images per class. There are 50000 training images and 10000 test images.
 
 The dataset is divided into five training batches and one test batch, each with 10000 images. The test batch contains exactly 1000 randomly-selected images from each class. The training batches contain the remaining images in random order, but some training batches may contain more images from one class than another. Between them, the training batches contain exactly 5000 images from each class. 
 classes are :1)airplane 2)automobile 3)bird 4)cat 5)deer 6)dog 7)frog 8)horse 9)ship 10)truck.
 
+# About project:
 for this classification problem i used 2 architecture.first i used MLP(Multilayer perceptron) and then i used CNN(Convolutional Neural Network) and last i used Transfer Learning with VGG16 for feature extraction.
 
 MLP:
